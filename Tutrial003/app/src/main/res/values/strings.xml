@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tutrial003</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="save">Save</string>
+</resources>
