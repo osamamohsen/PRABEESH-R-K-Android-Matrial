@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    tools:context="com.example.osama.tutrial003.SecondActivity">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+tools:context="com.example.osama.tutrial003.SecondActivity">
 
-    <EditText
-        android:id="@+id/first_name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/first_name"/>
+<EditText
+android:id="@+id/first_name"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:hint="@string/first_name"
+android:layout_alignParentLeft="true"
+android:layout_toLeftOf="@+id/last_name"
+android:textSize="13sp"
+/>
 
 
-    <EditText
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/second_name"/>
+<EditText
+android:id="@+id/last_name"
+android:layout_width="100dp"
+android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+android:hint="@string/second_name"
+android:textSize="13sp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/save"/>
+<Button
+android:layout_width="100dp"
+android:layout_height="wrap_content"
+android:text="@string/save"
+android:layout_below="@+id/last_name"
+android:layout_alignParentRight="true"
+/>
 </RelativeLayout>

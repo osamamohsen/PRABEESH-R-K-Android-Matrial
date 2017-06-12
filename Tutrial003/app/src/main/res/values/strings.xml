@@ -7,4 +7,5 @@
     <string name="first_name">First Name</string>
     <string name="second_name">Second Name</string>
     <string name="save">Save</string>
+    <string name="go_to_second_activity">Go To Second Activity</string>
 </resources>
