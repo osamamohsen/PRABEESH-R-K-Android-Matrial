@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tutrial005</string>
+    <string name="title_message">Please Select your fruit</string>
+    <string name="orange">Orange</string>
+    <string name="banana">Banana</string>
+    <string name="grapes">Grapes</string>
+    <string name="done">Done</string>
+
+    <string-array name="country_names">
+        <item>Albania</item>
+        <item>Alnrweg</item>
+        <item>Almagr</item>
+        <item>Egypt</item>
+        <item>KSA</item>
+        <item>Ploand</item>
+        <item>Sudan</item>
+        <item>Sweed</item>
+        <item>Tunise</item>
+        <item>Holand</item>
+        <item>USA</item>
+    </string-array>
+    
+</resources>
