@@ -7,6 +7,36 @@
     android:orientation="vertical"
     tools:context="com.example.osama.tutrial006.MainActivity">
 
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle_button_1"
+        android:textOn="Vibrate On"
+        android:textOff="Vibrate Off"
+        android:layout_gravity="center_horizontal"
+        android:onClick="changeVibrateState"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle_button_2"
+        android:layout_gravity="center_horizontal"
+        android:textOn="Wifi On"
+        android:textOff="Wifi Off"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingBottom="50dp"
+        android:id="@+id/result"
+        />
+
+
     <TextView
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
@@ -46,4 +76,5 @@
         android:id="@+id/fruit_selected"
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />
+
 </LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.osama.tutrial008.ListViewCustomLayout">
+    <TextView
+        android:id="@+id/list_item"
+        android:text="Hallo World"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_selecter"
+        />
+</LinearLayout>

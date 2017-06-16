@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tutrial007</string>
+    <string name="select_country">Select Country</string>
+
+    <string-array name="country_names">
+        <item>India</item>
+        <item>Pakaistan</item>
+        <item>Egypt</item>
+        <item>USA</item>
+        <item>Qatar</item>
+    </string-array>
+</resources>
