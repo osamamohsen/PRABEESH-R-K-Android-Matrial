@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.osama.tutrial010timepacker.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_show_dialog"
+        android:onClick="showDialog"
+        android:text="Show Time Picker"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_show_date_picker"
+        android:onClick="showDatePicker"
+        android:text="Show Date Picker"
+        android:layout_below="@+id/btn_show_dialog"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
