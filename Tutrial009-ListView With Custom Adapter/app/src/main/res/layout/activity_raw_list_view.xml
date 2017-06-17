@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#000"
+    tools:context="com.example.osama.tutrial009.raw_list_viewActivity">
+
+    <ImageView
+        android:id="@+id/raw_img_movie_poster"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/image_1"
+        />
+    
+    <TextView
+        android:id="@+id/raw_txt_movie_title"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="This is Movie Name"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/raw_img_movie_poster"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/raw_txt_movie_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:textColor="#fff"
+        android:text="This is Rating"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/raw_txt_movie_title"
+        android:layout_alignParentRight="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#fff"
+        android:layout_below="@+id/raw_img_movie_poster"
+        ></View>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Top Ten 10 Movies</string>
+
+    <string-array name="movie_titles">
+        <item>The Grey</item>
+        <item>Start Trek</item>
+        <item>Looper</item>
+        <item>Beauty and the Best</item>
+        <item>Logan</item>
+        <item>Token 3</item>
+        <item>Eclipse</item>
+        <item>Jaws</item>
+        <item>Thor</item>
+        <item>Wonder</item>
+    </string-array>
+    <string-array name="mavie_ratings">
+        <item>Rating: 7.4/10</item>
+        <item>Rating: 8.9/10</item>
+        <item>Rating: 3.2/10</item>
+        <item>Rating: 4.6/10</item>
+        <item>Rating: 8.4/10</item>
+        <item>Rating: 9.0/10</item>
+        <item>Rating: 4.5/10</item>
+        <item>Rating: 5.5/10</item>
+        <item>Rating: 3.8/10</item>
+        <item>Rating: 7.2/10</item>
+    </string-array>
+</resources>
